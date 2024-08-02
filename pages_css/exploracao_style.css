@@ -1,0 +1,26 @@
+body {
+  background-image: url(/assets/page3bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 160%;
+  color: #e1e1e6;
+  font-weight: 400;
+  margin-top: 1.6rem;
+}
+
+.content {
+  margin-top: 6.3rem;
+  margin-left: 10.2rem;
+  width: 80rem;
+}
+
+#explore {
+  color: white;
+  font-weight: 900;
+}

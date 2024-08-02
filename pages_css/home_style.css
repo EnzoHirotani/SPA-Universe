@@ -1,0 +1,40 @@
+body {
+  background-image: url(/assets/page1bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 2.4rem;
+
+  margin-top: 17.2rem;
+}
+
+button {
+  border-radius: 0.5rem;
+  border-color: white;
+  color: white;
+  background: transparent;
+  padding: 1.2rem 3.2rem;
+
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  transition: transform 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#home {
+  color: white;
+  font-weight: 900;
+}
